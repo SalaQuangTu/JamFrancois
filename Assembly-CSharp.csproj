@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\ENUM.cs" />
     <Compile Include="Assets\GameMaster.cs" />
+    <Compile Include="Assets\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/documents/COURS/UNITY/JamFrancois/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
