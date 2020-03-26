@@ -1745,8 +1745,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
         type: 3}
+      propertyPath: shoppingList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
+      propertyPath: tagListOfAvailableItems.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
       propertyPath: exitGameObject
       value: 
       objectReference: {fileID: 938916927}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
+      propertyPath: tagListOfAvailableItems.Array.data[0]
+      value: Chips
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
+      propertyPath: tagListOfAvailableItems.Array.data[1]
+      value: Beer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
+      propertyPath: tagListOfAvailableItems.Array.data[2]
+      value: PQ
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560369944391854585, guid: 6ad67c2a5b1ac594da42887292482366,
+        type: 3}
+      propertyPath: maxNumberToTake
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ad67c2a5b1ac594da42887292482366, type: 3}
