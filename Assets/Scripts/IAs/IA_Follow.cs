@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
+
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class IA_Follow : MonoBehaviour
@@ -13,6 +15,10 @@ public class IA_Follow : MonoBehaviour
     private bool positionSet = false;
 
     private NavMeshAgent agent;
+
+    public UnityEvent positionReached;
+    public UnityEvent isGoingFowardUpdate;
+    public MyStringEvent collideWithObject = new MyStringEvent();
 
     private void Awake()
     {
@@ -26,7 +32,6 @@ public class IA_Follow : MonoBehaviour
             agent = GetComponent<NavMeshAgent>();
         }
         positionToReach = newPositionToReach;
-        Debug.Log(agent);
         agent.SetDestination(positionToReach);
         positionSet = true;
     }
@@ -37,7 +42,7 @@ public class IA_Follow : MonoBehaviour
         {
             if (iaStats)
             {
-                if (positionSet)
+                if (positionSet) // Going on
                 {
                     if(isRunning)
                     {
@@ -47,6 +52,8 @@ public class IA_Follow : MonoBehaviour
                     {
                         agent.speed = iaStats.walingSpeed;
                     }
+
+                    isGoingFowardUpdate.Invoke();
                 }
                 else
                 {
@@ -61,6 +68,14 @@ public class IA_Follow : MonoBehaviour
         else
         {
             Debug.Log("IA_FOLLOW: MISSING AGENT", gameObject);
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<IA_PositionToReachCol>() != null)
+        {
+            collideWithObject.Invoke(other.tag);
         }
     }
 }
