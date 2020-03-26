@@ -2,14 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(IA_Follow))]
+[RequireComponent(typeof(IA_Follow), typeof(Animator))]
 public class IA_ShoppingList : MonoBehaviour
 {
-    public List<string> shoppingList;
+    [Header("Liste d'items a définirs")]
+    public List<string> tagListOfAvailableItems;
+    public int minNumberToTake = 1;
+    public int maxNumberToTake = 3;
+
+    [Header("Point de sortie du magasin")]
     public GameObject exitGameObject;
 
-    private IA_Follow followingScript;
+    [Header("Objet que l'ia recherche actuellement")]
+    public string currentTagToSearch;
 
+    [Header("Liste séléctionnée par l'IA")]
+    public List<string> shoppingList;     
+
+
+    private Animator iaStates;
+    private IA_Follow followingScript;
     private List<Vector3> shoppingPoints;
 
     private int listChecker = -1;
@@ -17,6 +29,7 @@ public class IA_ShoppingList : MonoBehaviour
     private void Awake()
     {
         followingScript = GetComponent<IA_Follow>();
+        iaStates = GetComponent<Animator>();
         if(exitGameObject == null)
         {
             Debug.Log("IA_ShoppingList : There is no exit", gameObject);
@@ -25,18 +38,55 @@ public class IA_ShoppingList : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(PopulateShoppingList());        
+        //ShuffleList(shoppingPoints);       
+    }
+
+    private IEnumerator PopulateShoppingList()
+    {
+        shoppingList = new List<string>();
+
+        int nbItemSelected = Mathf.Clamp(Random.Range(minNumberToTake, maxNumberToTake+1),0,100);
+        Debug.Log("nbItems Selected" + nbItemSelected, gameObject);
+        int i = 0;
+        int[] alreadySelected = new int[nbItemSelected];
+        for(int j = 0; j < nbItemSelected; j++)
+        {
+            alreadySelected[j] = -1;
+            Debug.Log("Already Selected " + j + " " + alreadySelected[j]);
+        }
+        
+        while(i < nbItemSelected)
+        {
+            int rand = Mathf.Clamp(Random.Range(0, maxNumberToTake), 0, 100);
+            bool nope = false;
+            for(int j = 0; j < shoppingList.Count; j++)
+            {
+                if(tagListOfAvailableItems[rand] == shoppingList[j])
+                {
+                    nope = true;
+                }
+            }
+            if(!nope)
+            {
+                shoppingList.Add(tagListOfAvailableItems[rand]);
+                Debug.Log(tagListOfAvailableItems[rand], gameObject);
+                i++;
+            }
+        }
         SetShoppingPoints();
-        SelectNextArticle();
+        yield return null;
     }
     /// <summary>
     /// Send the new position to reach to the followerScript
     /// </summary>
     public void SelectNextArticle()
     {
-        if(listChecker < shoppingList.Count)
+        if(listChecker < shoppingList.Count-1)
         {
             listChecker++;
             followingScript.SetNewPositionToReach(shoppingPoints[listChecker]);
+            currentTagToSearch = shoppingList[listChecker];
         }
         else
         {
@@ -60,22 +110,28 @@ public class IA_ShoppingList : MonoBehaviour
                     shoppingPoints.Add(newPlace.transform.position);
                 }
             }
+            StartCoroutine(ShuffleList(shoppingPoints, shoppingList));
         }
+
     }
 
     /// <summary>
     /// Aucune idée de si ça fonctionne xD
     /// </summary>
     /// <param name="list"></param>
-    public void ShuffleList(List<Vector3> list)
+    public IEnumerator ShuffleList(List<Vector3> list, List<string> tagList)
     {
         int[] randNumbers = new int[list.Count];
         List<Vector3> savedList;
+        List<string> savedTagList;
+        savedTagList = new List<string>();
         savedList = new List<Vector3>();
+
         for(int i = 0; i < list.Count; i++)
         {
             randNumbers[i] = -1;
             savedList.Add(list[i]);
+            savedTagList.Add(tagList[i]);
         }
 
         int added = 0;
@@ -94,12 +150,17 @@ public class IA_ShoppingList : MonoBehaviour
             if(notInThere)
             {
                 randNumbers[added] = number;
+                added++;
             }
         }
 
         for(int i = 0; i < list.Count; i++)
         {
             list[i] = savedList[randNumbers[i]];
+            tagList[i] = savedTagList[randNumbers[i]];
         }
+
+        SelectNextArticle();
+        yield return null;
     }
 }
