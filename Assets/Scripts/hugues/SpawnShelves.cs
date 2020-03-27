@@ -11,6 +11,12 @@ public class SpawnShelves : MonoBehaviour
     private List<GameObject> spawnedShelves = new List<GameObject>();
     [SerializeField]
     private List<string> spawnedType = new List<string>();
+
+    public List<string> GetGroceryType
+    {
+        get { return spawnedType; }
+    }
+
     int numberOfShelves;
     void Start()
     {

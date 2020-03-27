@@ -9,42 +9,23 @@ public class GameMaster : MonoBehaviour
     public List<string> listeDeCourse = new List<string>();
     [Space] public List<string> cadie = new List<string>();
 
-    public void GenererListeDeCourse(string[] objetsDansLeMagasin)
+    public SpawnShelves spawnShelves;
+
+
+    private void Start()
     {
-        foreach(string objet in objetsDansLeMagasin)
+        GenererListeDeCourse(spawnShelves.GetGroceryType);
+    }
+
+
+
+    public void GenererListeDeCourse(List<string> objetsDansLeMagasin)
+    {
+        if(nbObjetsAChopper > objetsDansLeMagasin.Count)
         {
-            if(Random.Range(0f,1f) <= 0.5f)
-            {
-                listeDeCourse.Add(objet);
-            }
-            
-            if(listeDeCourse.Count == nbObjetsAChopper)
-            {
-                break;
-            }
+            nbObjetsAChopper = objetsDansLeMagasin.Count;
         }
 
-        if(listeDeCourse.Count < nbObjetsAChopper)
-        {
-            while (listeDeCourse.Count < nbObjetsAChopper)
-            {
-                foreach (string objet in objetsDansLeMagasin)
-                {
-                    foreach(string objetChoisi in listeDeCourse)
-                    {
-                        if(objet != objetChoisi)
-                        {
-                            listeDeCourse.Add(objetChoisi);
-                            break;
-                        }
-                    }
 
-                    if (listeDeCourse.Count == nbObjetsAChopper)
-                    {
-                        break;
-                    }
-                }
-            }
-        }
     }
 }
