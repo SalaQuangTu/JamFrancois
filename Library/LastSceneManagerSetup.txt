@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/QT_Scene.unity
-=======
-- path: Assets/Scenes/IA_Scene.unity
->>>>>>> IA_Magasin
+- path: Assets/Scenes/Merge.unity
   isLoaded: 1
   isActive: 1
