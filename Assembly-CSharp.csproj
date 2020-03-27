@@ -60,8 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Events\MyStringEvent.cs" />
     <Compile Include="Assets\Scripts\GameMaster.cs" />
+    <Compile Include="Assets\Scripts\hugues\cameraController.cs" />
+    <Compile Include="Assets\Scripts\hugues\charaterController.cs" />
+    <Compile Include="Assets\Scripts\hugues\GetAllType.cs" />
+    <Compile Include="Assets\Scripts\hugues\SpawnShelves.cs" />
+    <Compile Include="Assets\Scripts\IAs\IA_Controller.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Follow.cs" />
+    <Compile Include="Assets\Scripts\IAs\IA_PositionToReachCol.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_ShoppingList.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Stats_Scriptable.cs" />
     <Compile Include="Assets\Scripts\UI\Corona.cs" />

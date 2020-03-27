@@ -7,5 +7,5 @@ public class IA_Stats_Scriptable : ScriptableObject
 {
     public float walingSpeed = 3;
     public float runningSpeed = 9;
-
+    public float waitingTimeOnObject = 2;
 }
