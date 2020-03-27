@@ -6,7 +6,7 @@ public class SpawnShelves : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> shelvesType = new List<GameObject>();
-    private List<GameObject> spawnPoints = new List<GameObject>();
+    [HideInInspector] public List<GameObject> spawnPoints = new List<GameObject>();
     [SerializeField]
     private List<GameObject> spawnedShelves = new List<GameObject>();
     [SerializeField]
@@ -17,7 +17,7 @@ public class SpawnShelves : MonoBehaviour
         get { return spawnedType; }
     }
 
-    int numberOfShelves;
+    public int numberOfShelves;
     void Start()
     {
         foreach (Transform child in transform)
