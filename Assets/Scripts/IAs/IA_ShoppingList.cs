@@ -37,13 +37,9 @@ public class IA_ShoppingList : MonoBehaviour
     }
     private void Update()
     {
-        if(followingScript.isRunning)
+        if(Vector3.Distance(transform.position, exitGameObject.transform.position)<0.5f)
         {
-            //iaStates.SetBool("Run", true);
-        }
-        else
-        {
-            //iaStates.SetBool("Run", false);
+            Destroy(gameObject);
         }
     }
     private void Start()
@@ -102,10 +98,6 @@ public class IA_ShoppingList : MonoBehaviour
         }
         else
         {
-            if(followingScript.positionToReach == exitGameObject.transform.position)
-            {
-                Destroy(gameObject);
-            }
             followingScript.SetNewPositionToReach(exitGameObject.transform.position);
         }
     }
