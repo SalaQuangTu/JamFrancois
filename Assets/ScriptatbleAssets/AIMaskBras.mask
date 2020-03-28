@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AIMaskBras
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Bip002
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+      L Foot001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+      L Foot001/Bip001 L Toe003
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+      L Foot001/Bip001 L Toe003/Bip001 L Toe004
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+      L Foot001/Bip001 L Toe003/Bip001 L Toe004/Bip001 L Toe005
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 L Thigh001/Bip001 L Calf001/Bip001
+      L Foot001/Bip001 L Toe003/Bip001 L Toe004/Bip001 L Toe005/Bip001 L Toe0Nub001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 Head001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 Head001/Bip001
+      HeadNub001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001/Bip001
+      L UpperArm001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001/Bip001
+      L UpperArm001/Bip001 L Forearm001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001/Bip001
+      L UpperArm001/Bip001 L Forearm001/Bip001 L Hand001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001/Bip001
+      L UpperArm001/Bip001 L Forearm001/Bip001 L Hand001/Bip001 L Finger001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 L Clavicle001/Bip001
+      L UpperArm001/Bip001 L Forearm001/Bip001 L Hand001/Bip001 L Finger001/Bip001
+      L Finger0Nub001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001/Bip001
+      R UpperArm001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001/Bip001
+      R UpperArm001/Bip001 R Forearm001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001/Bip001
+      R UpperArm001/Bip001 R Forearm001/Bip001 R Hand001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001/Bip001
+      R UpperArm001/Bip001 R Forearm001/Bip001 R Hand001/Bip001 R Finger001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 Neck001/Bip001 R Clavicle001/Bip001
+      R UpperArm001/Bip001 R Forearm001/Bip001 R Hand001/Bip001 R Finger001/Bip001
+      R Finger0Nub001
+    m_Weight: 1
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+      R Foot001
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+      R Foot001/Bip001 R Toe003
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+      R Foot001/Bip001 R Toe003/Bip001 R Toe004
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+      R Foot001/Bip001 R Toe003/Bip001 R Toe004/Bip001 R Toe005
+    m_Weight: 0
+  - m_Path: Bip002/Bip001 Pelvis001/Bip001 Spine001/Bip001 R Thigh001/Bip001 R Calf001/Bip001
+      R Foot001/Bip001 R Toe003/Bip001 R Toe004/Bip001 R Toe005/Bip001 R Toe0Nub001
+    m_Weight: 0
+  - m_Path: Box004
+    m_Weight: 0
+  - m_Path: Perso001
+    m_Weight: 0
