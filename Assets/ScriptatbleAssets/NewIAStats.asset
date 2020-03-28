@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c9b3021a53a4c4e83a3e06795f92e2, type: 3}
   m_Name: NewIAStats
   m_EditorClassIdentifier: 
-  walingSpeed: 3
-  runningSpeed: 9
+  walingSpeed: 6
+  runningSpeed: 20
+  waitingTimeOnObject: 2

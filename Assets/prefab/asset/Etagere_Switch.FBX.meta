@@ -71,7 +71,12 @@ ModelImporter:
     4300020: Switch011
     4300022: Switch012
     4300024: Switch013
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #3'
+    second: {fileID: 2100000, guid: 7723782d1a72ab24e9dac6bed88a65fa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -96,7 +96,12 @@ ModelImporter:
     4300030: "P\xE2tes019"
     4300032: "P\xE2tes020"
     4300034: "P\xE2tes021"
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 6054d75cf842d1d488896a07bd49ba4f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

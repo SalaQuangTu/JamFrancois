@@ -61,7 +61,12 @@ ModelImporter:
     4300016: Sac_croquettes011
     4300018: Sac_croquettes012
     4300020: Sac_croquettes014
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7723782d1a72ab24e9dac6bed88a65fa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

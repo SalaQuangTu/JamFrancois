@@ -46,7 +46,12 @@ ModelImporter:
     4300010: "Pack_bi\xE8re007"
     4300012: "Pack_bi\xE8re008"
     4300014: "Pack_bi\xE8re009"
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7723782d1a72ab24e9dac6bed88a65fa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

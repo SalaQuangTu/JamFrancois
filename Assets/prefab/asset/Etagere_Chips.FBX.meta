@@ -76,7 +76,12 @@ ModelImporter:
     4300022: Chips014
     4300024: Chips015
     4300026: Chips016
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 6054d75cf842d1d488896a07bd49ba4f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

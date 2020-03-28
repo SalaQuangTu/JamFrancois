@@ -51,7 +51,12 @@ ModelImporter:
     4300012: PQ007
     4300014: PQ008
     4300016: PQ009
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 6054d75cf842d1d488896a07bd49ba4f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
