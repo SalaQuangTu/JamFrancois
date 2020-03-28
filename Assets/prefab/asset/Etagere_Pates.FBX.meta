@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 5677b12d96915b04583591268f0f9737
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: "P\xE2tes001"
+    100004: "P\xE2tes002"
+    100006: "P\xE2tes003"
+    100008: "P\xE2tes004"
+    100010: "P\xE2tes006"
+    100012: "P\xE2tes007"
+    100014: "P\xE2tes008"
+    100016: "P\xE2tes009"
+    100018: "P\xE2tes011"
+    100020: "P\xE2tes012"
+    100022: "P\xE2tes013"
+    100024: "P\xE2tes014"
+    100026: "P\xE2tes016"
+    100028: "P\xE2tes017"
+    100030: "P\xE2tes018"
+    100032: "P\xE2tes019"
+    100034: "P\xE2tes020"
+    100036: "P\xE2tes021"
+    400000: //RootNode
+    400002: "P\xE2tes001"
+    400004: "P\xE2tes002"
+    400006: "P\xE2tes003"
+    400008: "P\xE2tes004"
+    400010: "P\xE2tes006"
+    400012: "P\xE2tes007"
+    400014: "P\xE2tes008"
+    400016: "P\xE2tes009"
+    400018: "P\xE2tes011"
+    400020: "P\xE2tes012"
+    400022: "P\xE2tes013"
+    400024: "P\xE2tes014"
+    400026: "P\xE2tes016"
+    400028: "P\xE2tes017"
+    400030: "P\xE2tes018"
+    400032: "P\xE2tes019"
+    400034: "P\xE2tes020"
+    400036: "P\xE2tes021"
+    2100000: 'Material #2'
+    2300000: "P\xE2tes001"
+    2300002: "P\xE2tes002"
+    2300004: "P\xE2tes003"
+    2300006: "P\xE2tes004"
+    2300008: "P\xE2tes006"
+    2300010: "P\xE2tes007"
+    2300012: "P\xE2tes008"
+    2300014: "P\xE2tes009"
+    2300016: "P\xE2tes011"
+    2300018: "P\xE2tes012"
+    2300020: "P\xE2tes013"
+    2300022: "P\xE2tes014"
+    2300024: "P\xE2tes016"
+    2300026: "P\xE2tes017"
+    2300028: "P\xE2tes018"
+    2300030: "P\xE2tes019"
+    2300032: "P\xE2tes020"
+    2300034: "P\xE2tes021"
+    3300000: "P\xE2tes001"
+    3300002: "P\xE2tes002"
+    3300004: "P\xE2tes003"
+    3300006: "P\xE2tes004"
+    3300008: "P\xE2tes006"
+    3300010: "P\xE2tes007"
+    3300012: "P\xE2tes008"
+    3300014: "P\xE2tes009"
+    3300016: "P\xE2tes011"
+    3300018: "P\xE2tes012"
+    3300020: "P\xE2tes013"
+    3300022: "P\xE2tes014"
+    3300024: "P\xE2tes016"
+    3300026: "P\xE2tes017"
+    3300028: "P\xE2tes018"
+    3300030: "P\xE2tes019"
+    3300032: "P\xE2tes020"
+    3300034: "P\xE2tes021"
+    4300000: "P\xE2tes001"
+    4300002: "P\xE2tes002"
+    4300004: "P\xE2tes003"
+    4300006: "P\xE2tes004"
+    4300008: "P\xE2tes006"
+    4300010: "P\xE2tes007"
+    4300012: "P\xE2tes008"
+    4300014: "P\xE2tes009"
+    4300016: "P\xE2tes011"
+    4300018: "P\xE2tes012"
+    4300020: "P\xE2tes013"
+    4300022: "P\xE2tes014"
+    4300024: "P\xE2tes016"
+    4300026: "P\xE2tes017"
+    4300028: "P\xE2tes018"
+    4300030: "P\xE2tes019"
+    4300032: "P\xE2tes020"
+    4300034: "P\xE2tes021"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
