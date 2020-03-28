@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 74778611}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.16788375, g: 0.21073635, b: 0.28994125, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1747,6 +1747,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
         type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
       propertyPath: arms.Array.data[0]
       value: 
       objectReference: {fileID: 1644853117}
@@ -1790,10 +1795,45 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 1040040959}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 499519751}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751672813781842, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RamasseDroite
+      objectReference: {fileID: 0}
     - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
         type: 3}
       propertyPath: arms.Array.size
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
         type: 3}
@@ -1840,6 +1880,36 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 1040040959}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 499519751}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636751673269544017, guid: 3197300d7da84b145ae2916cfdc795e4,
+        type: 3}
+      propertyPath: onObjectTaken.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RamasseGauche
+      objectReference: {fileID: 0}
     - target: {fileID: 605176028, guid: 3197300d7da84b145ae2916cfdc795e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
