@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\UI\Corona.cs" />
     <Compile Include="Assets\Scripts\UI\ListeDeCourse.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu.cs" />
     <Compile Include="Assets\Scripts\UI\Timer.cs" />
     <Compile Include="Assets\Scripts\WinOrLoose.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
