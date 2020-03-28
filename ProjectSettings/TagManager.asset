@@ -7,6 +7,12 @@ TagManager:
   - Beer
   - Chips
   - PQ
+  - pasta
+  - water
+  - switch
+  - rice
+  - toiletpaper
+  - enemi
   layers:
   - Default
   - TransparentFX

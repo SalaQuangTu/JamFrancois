@@ -32,11 +32,17 @@ public class Corona : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        personneDansMaZone++;
+        if(other.tag == "enemi")
+        {
+            personneDansMaZone++;
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        personneDansMaZone--;
+        if (other.tag == "enemi")
+        {
+            personneDansMaZone--;
+        }
     }
 }
