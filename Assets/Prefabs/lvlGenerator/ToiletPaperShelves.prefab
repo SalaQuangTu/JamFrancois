@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1586751369507227161}
   - component: {fileID: 6739954902376159178}
   - component: {fileID: 2512528108488832588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Item
-  m_TagString: Untagged
+  m_TagString: Shelve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +90,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -129,7 +128,7 @@ GameObject:
   - component: {fileID: 5326576041722471652}
   - component: {fileID: 3242373173797912955}
   - component: {fileID: 4786009201485440984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ToiletPaperShelves
   m_TagString: toiletpaper
   m_Icon: {fileID: 0}
@@ -184,7 +183,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -230,11 +228,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -305,6 +298,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (15)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &7130864189588482264 stripped
@@ -320,11 +318,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,6 +388,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (13)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &7156931873432285157 stripped
@@ -410,11 +408,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -485,6 +478,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (8)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &6952412708161827455 stripped
@@ -500,11 +498,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -575,6 +568,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (14)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &7942977518489522349 stripped
@@ -590,11 +588,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -665,6 +658,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (10)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &8519335311045931640 stripped
@@ -680,11 +678,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -755,6 +748,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (6)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &8344810468445357758 stripped
@@ -770,11 +768,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -845,6 +838,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &5422661011864362035 stripped
@@ -860,11 +858,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (23)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -935,6 +928,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (23)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &5218909132205509080 stripped
@@ -950,11 +948,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (20)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1025,6 +1018,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (20)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &5992078553849613768 stripped
@@ -1040,11 +1038,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1115,6 +1108,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (16)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &6671631492157080618 stripped
@@ -1130,11 +1128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1205,6 +1198,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &6726890584334358850 stripped
@@ -1220,11 +1218,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1295,6 +1288,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &6361984286570136558 stripped
@@ -1310,11 +1308,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1385,6 +1378,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &6425374614247656366 stripped
@@ -1400,11 +1398,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (19)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1475,6 +1468,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (19)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &2744148737146712645 stripped
@@ -1490,11 +1488,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1565,6 +1558,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (7)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &3597899148084450334 stripped
@@ -1580,11 +1578,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (22)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1655,6 +1648,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (22)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &3546170990432981065 stripped
@@ -1670,11 +1668,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1745,6 +1738,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (17)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &4563034221912096297 stripped
@@ -1760,11 +1758,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1835,6 +1828,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (11)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &4142719773790011230 stripped
@@ -1850,11 +1848,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1925,6 +1918,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &281224826949077496 stripped
@@ -1940,11 +1938,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (18)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2015,6 +2008,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (18)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &838622908265777721 stripped
@@ -2030,11 +2028,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (21)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2105,6 +2098,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (21)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &647049413188840999 stripped
@@ -2120,11 +2118,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2195,6 +2188,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (12)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &601522482932251674 stripped
@@ -2210,11 +2208,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (24)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2285,6 +2278,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (24)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}
 --- !u!4 &1506288132391146106 stripped
@@ -2300,11 +2298,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5717195802426355458}
     m_Modifications:
-    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
-        type: 3}
-      propertyPath: m_Name
-      value: ToiletPaper (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 7399949132601329022, guid: 4e6afb08fd3185843b5567dbbf183f37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2374,6 +2367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5669278341107713236, guid: 4e6afb08fd3185843b5567dbbf183f37,
+        type: 3}
+      propertyPath: m_Name
+      value: ToiletPaper (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e6afb08fd3185843b5567dbbf183f37, type: 3}

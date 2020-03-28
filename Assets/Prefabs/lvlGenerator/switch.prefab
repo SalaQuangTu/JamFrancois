@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3314244957818436407}
   - component: {fileID: 6512453775241580249}
   - component: {fileID: 1786584961187026339}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -101,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8538086919896200544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +135,7 @@ GameObject:
   - component: {fileID: 3281454931584370868}
   - component: {fileID: 354733487592721889}
   - component: {fileID: 4656624621046827044}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +189,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
