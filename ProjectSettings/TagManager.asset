@@ -13,6 +13,7 @@ TagManager:
   - rice
   - toiletpaper
   - enemi
+  - Shelve
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Shelve
   - 
   - 
   - 
