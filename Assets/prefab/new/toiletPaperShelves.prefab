@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 8005904773482587604}
   - component: {fileID: 3792027014644451075}
   - component: {fileID: 2940384155921047815}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8498773716607619920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: toiletPaperShelves
   m_TagString: toiletpaper
   m_Icon: {fileID: 0}

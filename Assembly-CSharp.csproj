@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ChangeMusicOnEvent.cs" />
+    <Compile Include="Assets\script\hugues\test\arm.cs" />
     <Compile Include="Assets\Scripts\Data\CollisionInfos.cs" />
     <Compile Include="Assets\Scripts\Data\MovementInfo.cs" />
     <Compile Include="Assets\Scripts\Data\MyStringEvent.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Scripts\hugues\cameraController.cs" />
     <Compile Include="Assets\Scripts\hugues\charaterController.cs" />
     <Compile Include="Assets\Scripts\hugues\GetAllType.cs" />
+    <Compile Include="Assets\Scripts\hugues\Grabber2.cs" />
     <Compile Include="Assets\Scripts\hugues\SpawnShelves.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Controller.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Follow.cs" />
@@ -78,10 +80,13 @@
     <Compile Include="Assets\Scripts\IAs\IA_Spawner.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Stats_Scriptable.cs" />
     <Compile Include="Assets\Scripts\OnCollision.cs" />
+    <Compile Include="Assets\Scripts\Sounds\Sound_Cadi.cs" />
     <Compile Include="Assets\Scripts\Sounds\SoundsOnCollision.cs" />
+    <Compile Include="Assets\Scripts\Sounds\SoundsOnObjectTaken.cs" />
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\UI\Corona.cs" />
     <Compile Include="Assets\Scripts\UI\ListeDeCourse.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu.cs" />
     <Compile Include="Assets\Scripts\UI\Timer.cs" />
     <Compile Include="Assets\Scripts\WinOrLoose.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

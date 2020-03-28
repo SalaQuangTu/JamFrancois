@@ -6,8 +6,8 @@ public class IA_Spawner : MonoBehaviour
 {
 
     public float numberOfAIToSpawn = 5;
-    public float minTimerSpawn = 10;
-    public float maxTimerSpawn = 30;
+    public float minTimerSpawn = 2;
+    public float maxTimerSpawn = 20;
 
     public GameObject spawnPoint;
     public GameObject AI_Object;
@@ -36,5 +36,6 @@ public class IA_Spawner : MonoBehaviour
     void SpawnOne()
     {
         Instantiate(AI_Object, spawnPoint.transform.position, spawnPoint.transform.rotation);
+        timer = 0;
     }
 }

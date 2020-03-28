@@ -38,6 +38,7 @@ public class IA_ShoppingList : MonoBehaviour
 
     private void Start()
     {
+        tagListOfAvailableItems = FindObjectOfType<SpawnShelves>().GetGroceryType;
         StartCoroutine(PopulateShoppingList());        
         //ShuffleList(shoppingPoints);       
     }
@@ -102,17 +103,22 @@ public class IA_ShoppingList : MonoBehaviour
         if(shoppingList.Count > 0)
         {
             shoppingPoints = new List<Vector3>();
-            foreach(string tag in shoppingList)
+            IA_PositionToReachCol[] toReach = GameObject.FindObjectsOfType<IA_PositionToReachCol>();
+
+            foreach (string tag in shoppingList)
             {
-                GameObject newPlace = GameObject.FindGameObjectWithTag(tag);
-                if(newPlace != null)
+                foreach (IA_PositionToReachCol pos in toReach)
                 {
-                    shoppingPoints.Add(newPlace.transform.position);
+                    if (tag == pos.objTag)
+                    {
+                        Debug.Log("Item Chosed", pos.gameObject);
+                        shoppingPoints.Add(pos.gameObject.transform.position);
+                        break;
+                    }
                 }
             }
             StartCoroutine(ShuffleList(shoppingPoints, shoppingList));
         }
-
     }
 
     /// <summary>

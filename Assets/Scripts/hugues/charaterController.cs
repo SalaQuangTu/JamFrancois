@@ -23,6 +23,7 @@ public class charaterController : MonoBehaviour
     GameObject grab;
     GameObject shelve;
 
+    public MovementEvent movementInfos;
     bool grabItem;
     void Start()
     {
@@ -40,7 +41,7 @@ public class charaterController : MonoBehaviour
     void FixedUpdate()
     {
 
-
+        Vector3 lastPosition = transform.position;
         var forward = Vector3.Cross(cam.transform.right, Vector3.up);
         var right = Vector3.Cross(cam.transform.forward, Vector3.up);
         if(x != 0 || y != 0)
@@ -74,6 +75,14 @@ public class charaterController : MonoBehaviour
         wantedRot = Quaternion.LookRotation(wantedDir);
         transform.rotation = Quaternion.Lerp(transform.rotation, wantedRot, (rotationSpeed * turnTime) * Time.fixedDeltaTime);
         transform.position = Vector3.Lerp(transform.position, transform.position + finalDir, (movementSpeed * moveTime) * Time.fixedDeltaTime);
+        MovementInfo info = new MovementInfo
+        {
+            movementSpeed = Vector3.Distance(transform.position, lastPosition),
+            lastPos = lastPosition,
+            newPos = transform.position      
+        };
+            
+        movementInfos.Invoke(info);
     }
     //private void OnTriggerEnter(Collider other)
     //{
