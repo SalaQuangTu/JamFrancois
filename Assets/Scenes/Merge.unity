@@ -1349,5 +1349,20 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 23558154}
+    - target: {fileID: 2734266373555312406, guid: d09e4ddac2d159644ace3f9c48026211,
+        type: 3}
+      propertyPath: fontSize2
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 2734266373555312406, guid: d09e4ddac2d159644ace3f9c48026211,
+        type: 3}
+      propertyPath: fontSize3
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2734266373555312406, guid: d09e4ddac2d159644ace3f9c48026211,
+        type: 3}
+      propertyPath: timer
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d09e4ddac2d159644ace3f9c48026211, type: 3}

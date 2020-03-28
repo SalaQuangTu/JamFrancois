@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\hugues\cameraController.cs" />
     <Compile Include="Assets\Scripts\hugues\charaterController.cs" />
     <Compile Include="Assets\Scripts\hugues\GetAllType.cs" />
+    <Compile Include="Assets\Scripts\hugues\Grabber2.cs" />
     <Compile Include="Assets\Scripts\hugues\SpawnShelves.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Controller.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Follow.cs" />

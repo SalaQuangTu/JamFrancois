@@ -54,7 +54,7 @@ public class arm : MonoBehaviour
                     if (followType == type.pile)
                     {
                         Bones[i].transform.position = Vector3.Lerp(Bones[i].transform.position, new Vector3(Bones[i - 1].transform.position.x, Bones[i].transform.position.y, Bones[i - 1].transform.position.z), speed * Time.deltaTime);
-                        Bones[i].transform.rotation = GameObject.Find("Player").transform.rotation;
+                        Bones[i].transform.rotation = GameObject.FindGameObjectWithTag("Player").transform.rotation;
                     }
                     else if (followType == type.snake) if (Vector3.Distance(Bones[i].transform.position, Bones[i - 1].transform.position) > 1f) Bones[i].transform.position = Vector3.Lerp(Bones[i].transform.position, Bones[i - 1].transform.position, speed * Time.deltaTime);
 

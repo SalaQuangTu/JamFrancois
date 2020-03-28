@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnShelves : MonoBehaviour
 {
+    // Start is called before the first frame update
     public List<GameObject> shelvesType = new List<GameObject>();
     [HideInInspector]
     public List<GameObject> spawnPoints = new List<GameObject>();
