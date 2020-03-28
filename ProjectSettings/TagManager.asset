@@ -7,12 +7,12 @@ TagManager:
   - Beer
   - Chips
   - PQ
-  - rice
-  - water
-  - toiletpaper
   - pasta
+  - water
   - switch
-  - Shelve
+  - rice
+  - toiletpaper
+  - enemi
   layers:
   - Default
   - TransparentFX
@@ -23,7 +23,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Shelve
+  - 
   - 
   - 
   - 

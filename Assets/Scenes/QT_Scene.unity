@@ -279,7 +279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &1321735001
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -538,6 +538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3686114491800751700, guid: cb18d73ed42588347bb37b0f34d2495d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3686114491800751696, guid: cb18d73ed42588347bb37b0f34d2495d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -646,7 +651,7 @@ PrefabInstance:
     - target: {fileID: 3686114491878626954, guid: cb18d73ed42588347bb37b0f34d2495d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb18d73ed42588347bb37b0f34d2495d, type: 3}

@@ -32,8 +32,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(WinOrLoose.Instance.actif)
+        {
+            return;
+        }
+
         if(actualTime <= 0)
         {
+            WinOrLoose.Instance.Defaite();
             return;
         }
 
