@@ -21,6 +21,11 @@ public class GameMaster : MonoBehaviour
 
     public ListeDeCourse ldc;
 
+    private void Start()
+    {
+        nbObjetsAChopper = Random.Range(3, 6);
+    }
+
     private void Update()
     {
         if(!gotTheList && (spawnShelves.numberOfShelves == spawnShelves.spawnPoints.Count))

@@ -71,9 +71,11 @@
     <Compile Include="Assets\Scripts\IAs\IA_PositionToReachCol.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_ShoppingList.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Stats_Scriptable.cs" />
+    <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\UI\Corona.cs" />
     <Compile Include="Assets\Scripts\UI\ListeDeCourse.cs" />
     <Compile Include="Assets\Scripts\UI\Timer.cs" />
+    <Compile Include="Assets\Scripts\WinOrLoose.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/documents/COURS/UNITY/JamFrancois/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

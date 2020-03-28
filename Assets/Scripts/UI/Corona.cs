@@ -17,7 +17,17 @@ public class Corona : MonoBehaviour
 
     private void Update()
     {
+        if (WinOrLoose.Instance.actif)
+        {
+            return;
+        }
+
         coronaBar.value += personneDansMaZone * Time.deltaTime;
+
+        if(coronaBar.value >= coronaBar.maxValue)
+        {
+            WinOrLoose.Instance.Defaite();
+        }
     }
 
     public void OnTriggerEnter(Collider other)
