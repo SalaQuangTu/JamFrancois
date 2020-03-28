@@ -27,7 +27,7 @@ public class charaterController : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-       // grab = GameObject.FindGameObjectWithTag("grab");
+        grab = GameObject.FindGameObjectWithTag("grab");
 
     }
 
@@ -74,26 +74,12 @@ public class charaterController : MonoBehaviour
         wantedRot = Quaternion.LookRotation(wantedDir);
         transform.rotation = Quaternion.Lerp(transform.rotation, wantedRot, (rotationSpeed * turnTime) * Time.fixedDeltaTime);
         transform.position = Vector3.Lerp(transform.position, transform.position + finalDir, (movementSpeed * moveTime) * Time.fixedDeltaTime);
-        if(grabItem)
-        {
-            Debug.Log("Entered trigger");
-            Vector3 shelvePos = new Vector3(shelve.transform.position.x, transform.position.y, shelve.transform.position.z);
-            var dir = shelvePos - transform.position;
-            Debug.DrawLine(transform.position, transform.position + dir * 2f, Color.blue);
-            //float dot = Vector3.Dot(Vector3.right, dir);
-            //Debug.Log(dot);
-            //grab.transform.position = transform.position + transform.right.normalized;
-        }
     }
-
     //private void OnTriggerEnter(Collider other)
     //{
-    //    grabItem = true;
-    //    shelve = other.gameObject;
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    grabItem = false;
+    //    if(other.tag != "Item")
+    //    {
+    //        Debug.Log("entered trigger : " + other.name);
+    //    }  
     //}
 }

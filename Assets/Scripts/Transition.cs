@@ -16,7 +16,7 @@ public class Transition : MonoBehaviour
     public void LoadNextLevel()
     {
         fade.SetTrigger("Close");
-        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCount - 1)
+        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCount)
         {
             StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
         }

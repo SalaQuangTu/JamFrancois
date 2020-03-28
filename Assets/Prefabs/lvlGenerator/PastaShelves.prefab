@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8322901670366063348}
   - component: {fileID: 7913664491955454909}
   - component: {fileID: 2757113589728266501}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Item
-  m_TagString: Shelve
+  m_TagString: item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,6 +178,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -216,7 +217,7 @@ GameObject:
   - component: {fileID: 8170719454428289641}
   - component: {fileID: 1259471438549529783}
   - component: {fileID: 3625027012324239532}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: PastaShelves
   m_TagString: pasta
   m_Icon: {fileID: 0}
@@ -271,6 +272,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -321,15 +323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -411,15 +423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -501,15 +523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -591,15 +623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -681,15 +723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -771,15 +823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -861,15 +923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -951,15 +1023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1041,15 +1123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1131,15 +1223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1221,15 +1323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1311,15 +1423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1401,15 +1523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1491,15 +1623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1581,15 +1723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1671,15 +1823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1761,15 +1923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1851,15 +2023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -1941,15 +2123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2031,15 +2223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2121,15 +2323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2211,15 +2423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2301,15 +2523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2391,15 +2623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2481,15 +2723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2571,15 +2823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2661,15 +2923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2751,15 +3023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2841,15 +3123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -2931,15 +3223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3021,15 +3323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3111,15 +3423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3201,15 +3523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3291,15 +3623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3381,15 +3723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3471,15 +3823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3561,15 +3923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3651,15 +4023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3741,15 +4123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3831,15 +4223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -3921,15 +4323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4011,15 +4423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4101,15 +4523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4191,15 +4623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4281,15 +4723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4371,15 +4823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4461,15 +4923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4551,15 +5023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4641,15 +5123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4731,15 +5223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4821,15 +5323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -4911,15 +5423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5001,15 +5523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5091,15 +5623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5181,15 +5723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5271,15 +5823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5361,15 +5923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5451,15 +6023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5541,15 +6123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5631,15 +6223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5721,15 +6323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5811,15 +6423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5901,15 +6523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -5991,15 +6623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6081,15 +6723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6171,15 +6823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6261,15 +6923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6351,15 +7023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6441,15 +7123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6531,15 +7223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6621,15 +7323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6711,15 +7423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6801,15 +7523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6891,15 +7623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -6981,15 +7723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7071,15 +7823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7161,15 +7923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7251,15 +8023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7341,15 +8123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7431,15 +8223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7521,15 +8323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7611,15 +8423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7701,15 +8523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7791,15 +8623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7881,15 +8723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -7971,15 +8823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8061,15 +8923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8151,15 +9023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8241,15 +9123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8331,15 +9223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8421,15 +9323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8511,15 +9423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8601,15 +9523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8691,15 +9623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8781,15 +9723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8871,15 +9823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -8961,15 +9923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9051,15 +10023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9141,15 +10123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9231,15 +10223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9321,15 +10323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9411,15 +10423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9501,15 +10523,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9591,15 +10623,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9681,15 +10723,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9771,15 +10823,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9861,15 +10923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -9951,15 +11023,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -10041,15 +11123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -10131,15 +11223,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -10221,15 +11323,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.05
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.624
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
@@ -10311,15 +11423,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasta (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_TagString
+      value: item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269642167627404837, guid: b948e296b8404684fa7cdc0d4d0d77d4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.053327
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16800006
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 8659851248256066894, guid: b948e296b8404684fa7cdc0d4d0d77d4,
         type: 3}

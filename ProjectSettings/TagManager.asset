@@ -13,7 +13,12 @@ TagManager:
   - rice
   - toiletpaper
   - enemi
-  - Shelve
+  - croquete
+  - item
+  - grab
+  - softbread
+  - chips
+  - beer
   layers:
   - Default
   - TransparentFX
@@ -24,7 +29,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Shelve
+  - item
   - 
   - 
   - 
