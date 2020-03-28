@@ -81,6 +81,15 @@ public class Grabber2 : MonoBehaviour
                     totalPoint++;
                     nbArms = 0;
                 }
+                
+                foreach(Text s in ListeDeCourse.Instance.ldc)
+                {
+                    if(s.text == objectInRange[i].tag)
+                    {
+                        ListeDeCourse.Instance.MajDeLaListe(objectInRange[i].tag);
+                        break;
+                    }
+                }
             }
             Destroy(objectInRange[i], 0.2f);
             objectInRange.Remove(objectInRange[i]);

@@ -89,14 +89,14 @@ public class SpawnShelves : MonoBehaviour
                 numberOfShelves++;
             }
         }
-        //if(nbType < spawnedShelves.Count)
-        //{
-        //    foreach (var type in spawnedShelves)
-        //    {
-        //        nbType++;
-        //        if(!spawnedType.Contains(type.tag))spawnedType.Add(type.tag); ;
-        //    }
-        //}
+        if (nbType < spawnedShelves.Count)
+        {
+            foreach (var type in spawnedShelves)
+            {
+                nbType++;
+                if (!spawnedType.Contains(type.tag) && type.tag != "Untagged") spawnedType.Add(type.tag); ;
+            }
+        }
 
     }
 

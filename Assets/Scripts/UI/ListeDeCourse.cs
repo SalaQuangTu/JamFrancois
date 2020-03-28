@@ -12,6 +12,12 @@ public class ListeDeCourse : MonoBehaviour
     [SerializeField]
     string itemAEnlever;
 
+    public static ListeDeCourse Instance;
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
