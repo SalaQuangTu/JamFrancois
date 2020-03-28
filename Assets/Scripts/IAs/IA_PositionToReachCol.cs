@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class IA_PositionToReachCol : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string objTag = "null";
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

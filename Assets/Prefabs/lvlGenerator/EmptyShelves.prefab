@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4763683405768345436}
   - component: {fileID: 8566887658488162956}
   - component: {fileID: 64717868349054953}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Shelve
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,7 +66,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -104,7 +103,7 @@ GameObject:
   - component: {fileID: 1914866371744705611}
   - component: {fileID: 605399591290861627}
   - component: {fileID: 1141606274454778910}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EmptyShelves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +158,6 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
