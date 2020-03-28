@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class WinOrLoose : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class WinOrLoose : MonoBehaviour
 
     public bool actif = false;
 
+    public UnityEvent winEvent;
+    public UnityEvent looseEvent;
     public static WinOrLoose Instance;
     private void Awake()
     {
@@ -47,7 +50,7 @@ public class WinOrLoose : MonoBehaviour
         {
             return;
         }
-
+        winEvent.Invoke();
         victoire.gameObject.SetActive(true);
         defaite.gameObject.SetActive(false);
         continueButton.gameObject.SetActive(true);
@@ -60,7 +63,7 @@ public class WinOrLoose : MonoBehaviour
         {
             return;
         }
-
+        looseEvent.Invoke();
         victoire.gameObject.SetActive(false);
         defaite.gameObject.SetActive(true);
         continueButton.gameObject.SetActive(true);

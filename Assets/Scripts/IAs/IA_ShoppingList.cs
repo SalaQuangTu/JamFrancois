@@ -35,11 +35,22 @@ public class IA_ShoppingList : MonoBehaviour
             Debug.Log("IA_ShoppingList : There is no exit", gameObject);
         }
     }
-
+    private void Update()
+    {
+        if(followingScript.isRunning)
+        {
+            //iaStates.SetBool("Run", true);
+        }
+        else
+        {
+            //iaStates.SetBool("Run", false);
+        }
+    }
     private void Start()
     {
         tagListOfAvailableItems = FindObjectOfType<SpawnShelves>().GetGroceryType;
-        StartCoroutine(PopulateShoppingList());        
+        StartCoroutine(PopulateShoppingList());
+        exitGameObject = GameObject.Find("Exit IA");
         //ShuffleList(shoppingPoints);       
     }
 
@@ -83,7 +94,7 @@ public class IA_ShoppingList : MonoBehaviour
     /// </summary>
     public void SelectNextArticle()
     {
-        if(listChecker < shoppingList.Count-1)
+        if(listChecker < shoppingPoints.Count-1)
         {
             listChecker++;
             followingScript.SetNewPositionToReach(shoppingPoints[listChecker]);
@@ -91,6 +102,10 @@ public class IA_ShoppingList : MonoBehaviour
         }
         else
         {
+            if(followingScript.positionToReach == exitGameObject.transform.position)
+            {
+                Destroy(gameObject);
+            }
             followingScript.SetNewPositionToReach(exitGameObject.transform.position);
         }
     }

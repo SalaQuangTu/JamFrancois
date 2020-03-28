@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/AjoutIA_Sound.unity
+- path: Assets/Scenes/MergeFinal.unity
   isLoaded: 1
   isActive: 1

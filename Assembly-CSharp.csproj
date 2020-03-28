@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\IAs\IA_Controller.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Follow.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_PositionToReachCol.cs" />
+    <Compile Include="Assets\Scripts\IAs\IA_Run.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_ShoppingList.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Spawner.cs" />
     <Compile Include="Assets\Scripts\IAs\IA_Stats_Scriptable.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\Sounds\Sound_Cadi.cs" />
     <Compile Include="Assets\Scripts\Sounds\SoundsOnCollision.cs" />
     <Compile Include="Assets\Scripts\Sounds\SoundsOnObjectTaken.cs" />
+    <Compile Include="Assets\Scripts\TheySeeMeRolling.cs" />
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\UI\Corona.cs" />
     <Compile Include="Assets\Scripts\UI\ListeDeCourse.cs" />
