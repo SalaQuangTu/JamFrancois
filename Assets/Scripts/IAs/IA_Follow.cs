@@ -12,17 +12,20 @@ public class IA_Follow : MonoBehaviour
 
     public IA_Stats_Scriptable iaStats;
     public bool isRunning = false;
+
+    public bool crashedOnPlayer = false;
     private bool positionSet = false;
 
     private NavMeshAgent agent;
 
-    public UnityEvent positionReached;
+    //public UnityEvent positionReached;
     public UnityEvent isGoingFowardUpdate;
     public MyStringEvent collideWithObject = new MyStringEvent();
 
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = 10;
     }
 
     public void SetNewPositionToReach(Vector3 newPositionToReach)
@@ -42,18 +45,26 @@ public class IA_Follow : MonoBehaviour
         {
             if (iaStats)
             {
-                if (positionSet) // Going on
+                if (!crashedOnPlayer)
                 {
-                    if(isRunning)
+                    if (positionSet) // Going on
                     {
-                        agent.speed = iaStats.runningSpeed;
+                        if (isRunning)
+                        {
+                            agent.speed = iaStats.runningSpeed;
+
+                        }
+                        else
+                        {
+                            agent.speed = iaStats.walingSpeed;
+                        }
+
+                        isGoingFowardUpdate.Invoke();
                     }
                     else
                     {
-                        agent.speed = iaStats.walingSpeed;
+                        agent.speed = 0;
                     }
-
-                    isGoingFowardUpdate.Invoke();
                 }
                 else
                 {
@@ -77,5 +88,10 @@ public class IA_Follow : MonoBehaviour
         {
             collideWithObject.Invoke(other.tag);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        collideWithObject.Invoke(collision.gameObject.tag);
     }
 }

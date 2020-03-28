@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Grabber2 : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Grabber2 : MonoBehaviour
 
     public List<arm> arms = new List<arm>();
 
+    public MyStringEvent onObjectTaken;
     int nbArms;
    // public arm arm;
 
@@ -77,6 +79,7 @@ public class Grabber2 : MonoBehaviour
                 if(objectInRange[i].tag == arms[y].tag)
                 {
                     Debug.Log("Add 1  to : " + arms[y].tag);
+                    onObjectTaken.Invoke(objectInRange[i].tag);
                     arms[y].IncreaseSpawnNumber();
                     totalPoint++;
                     nbArms = 0;

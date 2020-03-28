@@ -9,6 +9,7 @@ public class Corona : MonoBehaviour
     public int valeurMaxAvantDeces = 100;
     public int personneDansMaZone = 0;
 
+    public int speed = 10;
     private void Start()
     {
         personneDansMaZone = 0;
@@ -22,7 +23,7 @@ public class Corona : MonoBehaviour
             return;
         }
 
-        coronaBar.value += personneDansMaZone * Time.deltaTime;
+        coronaBar.value += personneDansMaZone * Time.deltaTime * speed;
 
         if(coronaBar.value >= coronaBar.maxValue)
         {

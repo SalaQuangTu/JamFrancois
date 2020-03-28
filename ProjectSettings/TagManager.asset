@@ -19,6 +19,7 @@ TagManager:
   - softbread
   - chips
   - beer
+  - Shelve
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - 
   - PostProcessing
   - item
-  - 
+  - Shelve
   - 
   - 
   - 

@@ -35,10 +35,18 @@ public class IA_ShoppingList : MonoBehaviour
             Debug.Log("IA_ShoppingList : There is no exit", gameObject);
         }
     }
-
+    private void Update()
+    {
+        if(Vector3.Distance(transform.position, exitGameObject.transform.position)<0.5f)
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
-        StartCoroutine(PopulateShoppingList());        
+        tagListOfAvailableItems = FindObjectOfType<SpawnShelves>().GetGroceryType;
+        StartCoroutine(PopulateShoppingList());
+        exitGameObject = GameObject.Find("Exit IA");
         //ShuffleList(shoppingPoints);       
     }
 
@@ -82,7 +90,7 @@ public class IA_ShoppingList : MonoBehaviour
     /// </summary>
     public void SelectNextArticle()
     {
-        if(listChecker < shoppingList.Count-1)
+        if(listChecker < shoppingPoints.Count-1)
         {
             listChecker++;
             followingScript.SetNewPositionToReach(shoppingPoints[listChecker]);
@@ -102,17 +110,22 @@ public class IA_ShoppingList : MonoBehaviour
         if(shoppingList.Count > 0)
         {
             shoppingPoints = new List<Vector3>();
-            foreach(string tag in shoppingList)
+            IA_PositionToReachCol[] toReach = GameObject.FindObjectsOfType<IA_PositionToReachCol>();
+
+            foreach (string tag in shoppingList)
             {
-                GameObject newPlace = GameObject.FindGameObjectWithTag(tag);
-                if(newPlace != null)
+                foreach (IA_PositionToReachCol pos in toReach)
                 {
-                    shoppingPoints.Add(newPlace.transform.position);
+                    if (tag == pos.objTag)
+                    {
+                        Debug.Log("Item Chosed", pos.gameObject);
+                        shoppingPoints.Add(pos.gameObject.transform.position);
+                        break;
+                    }
                 }
             }
             StartCoroutine(ShuffleList(shoppingPoints, shoppingList));
         }
-
     }
 
     /// <summary>
